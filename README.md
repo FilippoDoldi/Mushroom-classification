@@ -11,5 +11,4 @@ This dataset includes descriptions of hypothetical samples corresponding to 23 s
 
 **Solution and results**
 
-In this binary classification problem since the poisonus class is the positive class we aim to maximize recall since we want to avoid false negatives, i.e. people getting poisoned by eating misclassiefied mushrooms. Due to the high number of nominal variables we solve the problem through random forests achieving a perfect classification on the test set with grid search cross validation.
-
+In this binary classification problem since the poisonus class is the positive class we aim to maximize recall in order to avoid false negatives, i.e. people getting poisoned by eating misclassiefied mushrooms. Due to the high number of nominal variables we solve the problem through random forests achieving a perfect classification on the test set with grid search cross validation.
